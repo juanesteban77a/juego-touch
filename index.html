@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+
+<h3 class="si">RECORD:</h3>
+<script src="./localstorage.js"></script>
+ <h3 style="color:red";>Nombre:</h3> <input  class="nombre1"id="nom" style="margin:10px" type="text"><br><br>
+ <h3 style="color:red";>record: </h3><input class="nombre1" id="recd" style="margin:4px" type="text"><br><br>
+        <button id="btn_guardar" onclick="guardar()">Guardar</button><br><br>
+
+        <table >
+            <thead>
+                <tr>
+                    <th class="r">Nombre</th>
+                    <th class="r">Record</th>
+                   
+                </tr>
+            </thead>
+            <tbody id="tablita">
+
+            </tbody>
+        </table>
+
+
+<body>
+	<div class="contenedor pointer">
+		<span id="puntos"></span>
+		<span id="ned"></span>
+		<span id="tiempo"></span>
+	</div>
+	<div class="contenedor">
+		<div id="player"></div>
+	</div>
+<script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
